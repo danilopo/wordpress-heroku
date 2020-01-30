@@ -33,3 +33,6 @@ web/.htaccess
 # WP Plugins
 web/app/object-cache.php
 web/app/advanced-cache.php
+
+# VSCODE
+*.code-workspace
