@@ -130,6 +130,7 @@ define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISALLOW_FILE_EDIT', true);
 define('DISALLOW_FILE_MODS', false);
 define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
+define('FS_METHOD','direct');
 
 // Enforce SSL for Login/Admin in production
 if (env('WP_ENV') != "development") {
